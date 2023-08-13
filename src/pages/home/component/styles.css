@@ -1,0 +1,401 @@
+body{
+  background: rgb(242, 234, 234);
+  overflow-x: hidden;
+}
+
+.navbar {
+  margin-top: 70px;
+}
+
+.logo-img {
+  width: 60px;
+  height: 60px;
+}
+
+.search {
+  float: left;
+}
+
+.right-section {
+  float: right;
+  margin-top: 20px;
+}
+
+.right-section ul li {
+  list-style: none;
+  display: inline;
+  margin-left: 15px;
+  font-size: 12px;
+}
+
+.right-section ul li a {
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+
+.right-section ul li a::after {
+  content: '';
+  width: 0;
+  height: 2px;
+  background: rgb(14, 50, 230);
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  border-radius: 2px;
+  transition: 0.5s;
+}
+
+.right-section ul li a:hover::after {
+  width: 100%;
+}
+
+.icons {
+  display: inline-flex;
+  margin-top: 20px;
+  margin-left: 5px;
+
+}
+
+.fb {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.insta {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.email {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.logo-section {
+  margin-top: 20px;
+  display: flex;
+  /* background-color: red; */
+}
+
+.logo-img {
+  width: 120px;
+  height: 100px;
+  margin-left: 130px;
+  margin-top: -30px;
+}
+.search-section {
+  margin-left: 10%;
+  width: 50%;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.cart-section {
+  margin-left: 140px;
+  font-size: 20px;
+  color: black;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.cart-icon {
+  margin-left: 10px;
+}
+
+.cart-icon span {
+  margin-left: 6px;
+}
+
+.categories-section {
+  margin: 1px 0px 0px 20px;
+
+}
+
+/* megabar */
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+.megamenu {
+  position: static;
+}
+
+.megamenu .dropdown-menu {
+  background: none;
+  border: none;
+  width: 100%;
+}
+
+/*
+  *
+  * ==========================================
+  * FOR DEMO PURPOSES
+  * ==========================================
+  *
+  */
+
+.APP {
+  background: #eaafc8;
+  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
+  background: linear-gradient(to right, #eaafc8, #654ea3);
+  min-height: 100vh;
+}
+
+code {
+  color: #745eb1;
+  background: #fff;
+  padding: 0.1rem 0.2rem;
+  border-radius: 0.2rem;
+}
+
+.text-uppercase {
+  letter-spacing: 0.08em;
+}
+
+.megaimaga {
+  background: center center url("https://therichpost.com/wp-content/uploads/2021/11/mega.png")no-repeat;
+  background-size: cover;
+}
+
+.banner {
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.sale-section-header {
+  display: flex;
+  margin-top: 40px;
+  width: 100%;
+}
+.on-sale {
+  margin-left: 100px;
+  margin-top: 13px;
+}
+.timer {
+  margin-left: 50px;
+  color: #f85606;
+  margin-top: 13px;
+}
+
+.flash-sale {
+  color: #f85606;
+  margin-left: 120px;
+  margin-top: -10px;
+}
+
+.shop-button{
+  margin-left: 190px;
+  height: 40px;
+  margin-top: -10px;
+}
+
+.card-size{
+  height: 380px;
+  width: 260px;
+  margin-left: 40px;
+  margin-top: 35px;
+}
+.sale-cards{
+  margin-top: 40px;
+  width: 100%;
+  margin-left: 70px;
+}
+.sale-section2{
+  padding-top: 40px;
+  width: 100%;
+}
+
+.sale-img{
+  height: 250px;
+  size: 40px;
+  padding: 30px;
+}
+.earbuds1 {
+  width: 100px;
+  height: 250px;
+  padding: 30px;
+  margin-left: 10px;
+}
+.earbuds {
+  width: 100px;
+  height: 250px;
+  margin-left: 10px;
+}
+.book-img{
+  width: 165px;
+  height: 250px;
+   padding: 30px;
+}
+
+.checked {
+  color: orange;
+}
+
+
+
+.eclairs{
+  width: 90px;
+  height: 250px;
+  padding: 20px;
+}
+
+.before-price{
+  text-decoration: line-through ;
+  margin-left: 30px;
+  color: red;
+}
+
+.ad1{
+  width: 1550px;
+  height: 280px;
+  margin-top: 80px;
+}
+
+
+span.line {
+  position: absolute;
+  left: 57.6%;
+  top: 10px;
+  width: 1px;
+  background: rgb(196, 195, 195);
+  height: 40px;
+}
+
+/* popularpicks */
+
+.popular-picks1{
+  margin-top: 80px;
+
+}
+
+.popular-card-size{
+  margin-left: 30px;
+  margin-top: 20px;
+  width: 80%;
+}
+.slick-prev{
+  margin-left: 10px;
+  color: black;
+}
+
+.slick-arrow.slick-prev,
+.slick-arrow.slick-next{
+  width: 47px;
+  height: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  color: black;
+}
+.slick-prev::before,
+.slick-next::before {
+  display: none;
+}
+
+.popular-picks2 {
+  margin-top: 40px;
+}
+
+
+.hot-selling{
+  margin-top: 80px;
+}
+
+
+
+.orange{
+  color: #f85606;
+}
+
+.advertise-section{
+  margin: 80px 0px 0px 60px;
+}
+
+.newarrivals{
+  margin-top: 70px;
+}
+.new-arrival-slider{
+  margin-top: 30px;
+}
+
+/* footer */
+.footer-section{
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 340px;
+    margin-top: 100px;
+}
+
+.f-text{
+  margin-left: 140px;
+  padding-top: 70px;
+
+}
+.f-text1 {
+margin-left: 140px;
+  padding-top: 70px;
+}
+.f-text2 {
+  margin: 60px 0px 0px 250px;
+}
+.f-text2 h4{
+  text-align: justify;
+    padding-top: 70px;
+}
+
+.contact-lists li a{
+  text-decoration: none;
+  font-size: 13px;
+  color: #000000;
+
+}
+.contact-lists li{
+  list-style: none;
+  margin-left: -30px;
+  margin-top: 10px;
+}
+
+.connect{
+  display: flex;
+  margin-left: 130px;
+ padding-top: 30px;
+}
+.connect-icons{
+  margin-left: 20px;
+}
+.connect-1{
+  margin-left: 170px;
+}
+
+.go-to{
+  text-decoration: none;
+}
+.left-arrow {
+  background-color: red;
+}
+
+.right-arrow {
+  background-color: red;
+  margin-left: 40px;
+}
+
+/* register css */
+.register-right{
+  margin-left: 10%;
+  width: 100%;
+}
+
+.form{
+  display: inline-flex;
+  background-color: blue;
+}
+
+.form-right{
+  width: 100%;
+}
